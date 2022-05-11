@@ -1,8 +1,9 @@
 body {
   background-color: #1d2322;
+  overflow: hidden;
 }
 nav {
-  background-color: #00ada4;
+  background-color: #c49ef7;
   padding: 21px;
   color: #f7f7f7;
 }
@@ -16,6 +17,7 @@ nav a {
   display: flex;
   justify-content: center;
   width: 100%;
+  margin-top: 100px;
 }
 
 .product {
@@ -24,6 +26,7 @@ nav a {
   width: 22%;
   text-align: center;
   height: 500px;
+  border: 1px solid #c49ef7;
 }
 
 .product img {
@@ -37,6 +40,11 @@ nav a {
 .product button {
   border: none;
   padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #4b4b4b;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .product p {
@@ -81,7 +89,19 @@ nav a {
   width: 200px;
   margin: 5px;
   vertical-align: middle;
-  background-color: #00ada4;
+  background-color: #c49ef7;
   color: #f7f7f7;
   font-weight: bold;
+  cursor: pointer;
+}
+.mala-golema {
+  padding: 6px 20px;
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+}
+
+.mala-golema:hover,
+.mala-golema:focus {
+  background-color: #8f8e8e;
 }

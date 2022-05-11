@@ -1,14 +1,13 @@
 export const pizzaProducts = [
   {
     id: "1",
-    name: "Capricciosa",
+    name: "Kапричоза",
     image:
       "https://i0.wp.com/costarica.mk/wp-content/uploads/2020/09/Capri.jpg?w=500&ssl=1",
     priceSmall: 350,
     priceBig: 450,
     tags: ["house-speciality", "vege", "discount", "promo"],
-    ingredients:
-      "доматен сос, кашкавал, печурки, шунка, оригано",
+    ingredients: "доматен сос, кашкавал, печурки, шунка, оригано",
   },
   {
     id: "2",
@@ -29,8 +28,7 @@ export const pizzaProducts = [
     priceSmall: 420,
     priceBig: 550,
     tags: ["house-speciality", "vege", "discount", "promo"],
-    ingredients:
-      "доматен сос, моцарела, рукола, пршута, оригано, шери домати",
+    ingredients: "доматен сос, моцарела, рукола, пршута, оригано, шери домати",
   },
   {
     id: "4",
@@ -52,6 +50,6 @@ export const pizzaProducts = [
     priceBig: 570,
     tags: ["house-speciality", "vege", "discount", "promo"],
     ingredients:
-    "доматен сос, кашкавал, печурки, шунка, маслинки, свински врат, кулен, павлака, оригано, сусам",
-  }
+      "доматен сос, кашкавал, печурки, шунка, маслинки, свински врат, кулен, павлака, оригано, сусам",
+  },
 ];
